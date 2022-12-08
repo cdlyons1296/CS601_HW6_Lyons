@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin: 0;
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+
+#flex{
+    display: flex;
+    justify-content: stretch;
+   
+}
+
+.pic-container{
+    width: 50%;
+    padding: 25px;
+}
+img{
+    width: 90%;
+    border-color: blue;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+
+}
+#app{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+h1{
+    background-color: blue;
+}
+.top{
+    background-color: blue;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    height: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+}
+.center{
+   
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    
+}
+.bottom{
+    text-align: center;
+    font-size:xx-large;
+    color: rgb(7, 7, 73);
+    font-weight: 600;
+}
+
+button{
+    width: 25%;
+    background-color: dodgerblue;
+    color: white;
+    font-size:large;
+    font-weight: bolder;
+    margin: 25px;
+}

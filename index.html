@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homework Assignment 6</title>
+    <meta charset="UTF-8"> 
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <div class="top">
+            <h1>{{ pageName }}</h1>
+        </div>
+        
+        <div id="flex">
+         <div class ="pic-container">
+            <img v-bind:src= "catImage" class= "center" @mouseover="adultCat(1)" @mouseout="babyCat(0)"/>
+        </div>   
+        <div class ="pic-container">
+            <img v-bind:src="dogImage" class= "center" @mouseover="adultDog(1)" @mouseout ="babyDog(0)"/>
+        </div>   
+        </div>
+        <div id="flex">
+            <div class ="pic-container">
+               <img v-bind:src="pigImage" class= "center" @mouseover="adultPig(1)" @mouseout ="babyPig(0)"/>
+           </div>   
+           <div class ="pic-container">
+               <img v-bind:src="chickenImage" class= "center" @mouseover="adultChicken(1)" @mouseout ="babyChicken(0)"/>
+           </div>   
+           </div>
+        <div class="bottom">
+            <ul>
+                <li v-for="animal in animals">
+                   {{animal.text}}
+                </li>
+            </ul>
+
+            <button v-on:click="learnMore">Learn More About Animals</a>
+        </div>
+
+        
+
+    </div>
+
+
+<!---Add Vue-->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src ="main.js"> </script>
+
+
+</script>
+</body>
+</html>
+
+
