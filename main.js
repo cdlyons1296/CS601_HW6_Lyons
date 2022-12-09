@@ -15,7 +15,8 @@
     
     var app = new Vue({
         el:'#app',
-        data: {
+        data() {
+        return {
             pageName:'Baby Animals',
             link:'https://kids.nationalgeographic.com/animals',
             cats,
@@ -37,6 +38,7 @@
                 {text:'A chick grows up to be chicken.'}
 
             ]
+        }
         },
         methods:{
             learnMore(){
