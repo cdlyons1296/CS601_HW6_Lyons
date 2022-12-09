@@ -31,15 +31,15 @@
 
 
             animals:[
-                {text:'A kitten grows up to be a cat.'},
+                {text:'A kitten grows up to be a cat'},
                 {text:'A puppy grows up to be dog.'},
                 {text:'A piglet grows up to be pig.'},
-                {text:'A chick grows up to be chicken'}
+                {text:'A chick grows up to be chicken.'}
 
             ]
         },
         methods:{
-            learnMore: function(){
+            learnMore(){
                 alert('You will be sent to National Geographic Kids to learn more about animals.')
                 window.location.href='https://kids.nationalgeographic.com/animals'
             },
