@@ -1,12 +1,12 @@
 
-    let kitten= "images/kitten.png";
-    let cat= "images/cat.png";
-    let puppy= "images/puppy.png";
-    let dog= "images/dog.png";
-    let chick="images/chick.png";
-    let chicken ="images/chicken.png";
-    let piglet= "images/piglet.png";
-    let pig= "images/pig.png";
+    let kitten= "assets/images/kitten.png";
+    let cat= "assets/images/cat.png";
+    let puppy= "assets/images/puppy.png";
+    let dog= "assets/images/dog.png";
+    let chick="assets/images/chick.png";
+    let chicken ="assets/images/chicken.png";
+    let piglet= "assets/images/piglet.png";
+    let pig= "assets/images/pig.png";
 
     const cats = [kitten, cat]
     const dogs = [puppy, dog]
