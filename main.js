@@ -12,9 +12,10 @@
     const dogs = [puppy, dog]
     const chickens = [chick, chicken]
     const pigs = [piglet, pig]
-    
-    var app = new Vue({
-        el:'#app',
+    const{createApp} = Vue
+
+
+     createApp({
         data() {
         return {
             pageName:'Baby Animals',
@@ -73,4 +74,4 @@
         }
         
 
-    })
+    }).mount('#app')
